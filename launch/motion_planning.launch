@@ -16,8 +16,8 @@
 	<arg name="max_brake_value"				default="100"/> <!-- %100 percentage, min = 0, max = 100 -->
 	
 	<!-- These gains used for steer_mode = 0 -->
-	<arg name="steerAngleGainKP" 			default="0.75"/>
-	<arg name="steerAngleGainKI" 			default="0.0"/>
+    <arg name="steerAngleGainKP" 			default="3.0"/>
+    <arg name="steerAngleGainKI" 			default="0.0"/>
 	<arg name="steerAngleGainKD" 			default="0.0"/>
 
 	<!-- Next two parameters are used for ACC tuning, will only be used when drive_mode param above is set to (0) which means velocity mode -->
@@ -30,13 +30,13 @@
 	<arg name="steerTorqueGainKI" 			default="10.0"/>
 	<arg name="steerTorqueGainKD" 			default="10.0"/>
 	
-    <arg name="accelGainKP" 				default="1"/>
-    <arg name="accelGainKI" 				default="1"/>
+    <arg name="accelGainKP" 				default="20"/>
+    <arg name="accelGainKI" 				default="2"/>
     <arg name="accelGainKD" 				default="0.0"/>
 	
-    <arg name="brakeGainKP" 				default="45.0"/>
-    <arg name="brakeGainKI" 				default="24.0"/>
-    <arg name="brakeGainKD" 				default="0.0"/> 		 
+    <arg name="brakeGainKP" 				default="5"/>
+    <arg name="brakeGainKI" 				default="2.0"/>
+    <arg name="brakeGainKD" 				default="0.0"/> 	 
 	
 	<arg name="accelInitDelay" 				default="0.4"/> <!-- seconds -->
 	<arg name="accelAvgDelay" 				default="0.1"/> <!-- seconds -->

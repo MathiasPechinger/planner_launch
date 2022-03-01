@@ -7,8 +7,8 @@
 
   <!-- OP common params -->
   <arg name="enableStopSignBehavior" 		default="true" />	
-  <arg name="maxVelocity" 					default="8.3" /> <!-- m/s -->
-  <arg name="enableSwerving" 				default="false"  />
+  <arg name="maxVelocity" 					default="6.0" /> <!-- m/s -->
+  <arg name="enableSwerving" 				default="true"  />
   <arg name="openDriveMap" 					default=""/>
 
   <include file="$(find op_local_planner)/launch/op_common_params.launch">
